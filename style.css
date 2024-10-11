@@ -1,0 +1,132 @@
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .header-flex-container{
+        display: flex;
+        background-color: black;
+        color: white;
+        /*flex-direction: ; ►por defecto horizontal y si pongo column entonces me cambia la dirección a columnas*/ 
+        justify-content: center; /*eje principal*/
+        align-items:center; /*eje secundario*/
+        flex-wrap: nowrap; /*permite el salto de linea*/
+    }
+
+    div a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .item1{
+        padding: 1%;
+        margin: 5px;
+        color: white;
+        flex-grow: 4;
+        font-size: 50px;
+     }
+    .item{
+        padding: 1%;
+        margin: 5px;
+        color: white;
+    }
+    .item:hover{
+        background-color: green;
+    }
+
+
+    .flex-container{
+        display: flex;
+        background-color: white;
+        flex-direction: column; /*►por defecto horizontal y si pongo column entonces me cambia la dirección a columnas*/ 
+        justify-content: center; /*eje principal*/
+        align-items:center; /*eje secundario*/
+        flex-wrap: nowrap; /*permite el salto de linea*/
+        }
+
+    .element{
+        padding: 3%;
+        margin: 15px;
+        color: black;
+        background-color: whitesmoke;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        width:70%;
+        }
+
+    img{
+        width: 853px;
+        height: 480px;
+                
+    }
+    /*img:nth-child(3) {
+        width: auto;
+    }*/
+
+    h2{
+        text-align: center;
+        font-size: 40px;
+        background-color: green;
+        padding: 10px;
+    }
+    .text{
+        text-align: justify;
+        width: 853px;
+        margin-left: 100px; 
+        
+    }
+
+
+    #footer {
+        color:white;
+        background-color: black;
+        text-align: center;
+        font-size: 20px;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    #enlace {
+        color:white;
+        text-decoration: none;
+    }
+    #enlace:hover {
+        color: green;
+    }
+
+    /* Iconos sociales */
+     .social-icons img {
+        width: 32px;
+        align-items: center; 
+        text-align: justify;
+    }
+
+/* Estilo table */
+table {
+    width: auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: black;
+    color: white;
+}
+tr:hover {
+    background-color: grey;
+}
+colgroup col{
+    border-right: 10px right;
+}
+colgroup col:nth-child(1){
+    background-color: pink;
+}
+
+.content{
+    min-height: 100vh;
+}
